@@ -6,4 +6,7 @@ import lombok.Data;
 public class DeviceBean {
     private String id;
     private String deviceName;
+    private String deviceNum;
+    private String channel;
+
 }

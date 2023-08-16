@@ -16,7 +16,7 @@ public class Runner implements ApplicationRunner {
             @Override
             public void run() {
                 log.info("socket 开始启动...");
-                String ip = "172.16.1.58";
+                String ip = "172.16.1.136";
                 String port = "8080";
                 String natUrl = "nat/test";
 
